@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:visibility="visible"
+            android:id="@+id/toolbar"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            android:background="@color/bottomNavigationBackground"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:paddingLeft="@dimen/padding_content"
+            android:paddingRight="@dimen/padding_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewUser"
+                    style="@style/viewParent.headerText"
+                    android:maxLines="2"
+                    android:text="@string/welcome"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/quicksand"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"/>
+
+                <ImageView
+                    android:id="@+id/profileCircleImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/kripto"
+                    android:layout_marginRight="-300dp"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        android:foreground="?attr/selectableItemBackground"
+        app:menu="@menu/master_bottom_navigation"
+        app:elevation="10dp"
+        android:theme="@style/Widget.BottomNavigationView"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@color/bottom_navigation_color"
+        app:itemTextColor="@color/bottom_navigation_color"
+        app:itemBackground="@color/bottomNavigationBackground"
+        android:layout_gravity="bottom"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

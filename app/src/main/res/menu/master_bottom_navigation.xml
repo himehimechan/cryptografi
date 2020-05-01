@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navBotHome"
+        android:icon="@drawable/ic_vpn_key_black_24dp"
+        android:title="@string/kripto" />
+
+    <item
+        android:id="@+id/navBotVegence"
+        android:icon="@drawable/ic_vpn_key_black_24dp"
+        android:title="@string/vigenere" />
+
+    <item
+        android:id="@+id/navBotHill"
+        android:icon="@drawable/ic_vpn_key_black_24dp"
+        android:title="@string/hill" />
+
+<!--    <item-->
+<!--        android:id="@+id/navBotCaesarPoly"-->
+<!--        android:icon="@drawable/ic_vpn_key_black_24dp"-->
+<!--        android:title="@string/poly" />-->
+
+    <item
+        android:id="@+id/navBotLogout"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:title="@string/logout" />
+
+</menu>

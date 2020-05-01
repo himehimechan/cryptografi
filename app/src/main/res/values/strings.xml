@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KriptoApplication</string>
+    <string name="welcome">Kriptografi</string>
+    <string name="logout">Exit</string>
+    <string name="home">Home</string>
+    <string name="kripto">Caesar Cipher</string>
+    <string name="key">Key</string>
+    <string name="plaintext">Plaintext</string>
+    <string name="chipertext">Ciphertext</string>
+    <string name="btn_save">Enkrip</string>
+    <string name="btn_enkrip">Dekrip</string>
+    <string name="vigenere">Vigenere Cipher</string>
+    <string name="poly">"Caesar Poly Cipher"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hill">Hill Chiper</string>
+    <string name="keyhill">Key Matrix 2x2</string>
+</resources>

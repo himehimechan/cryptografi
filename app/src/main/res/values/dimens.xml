@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headerTextSize">25sp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_left">8dp</dimen>
+    <dimen name="margin_left3">15dp</dimen>
+    <dimen name="margin_left2">5dp</dimen>
+    <dimen name="margin_top2">20dp</dimen>
+    <dimen name="margin_top3">5dp</dimen>
+    <dimen name="margin_bot">10dp</dimen>
+    <dimen name="padding_content">10dp</dimen>
+    <dimen name="padding_content2">5dp</dimen>
+    <dimen name="height_input">30dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+</resources>
