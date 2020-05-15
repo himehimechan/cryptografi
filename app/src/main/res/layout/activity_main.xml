@@ -36,15 +36,6 @@
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"/>
 
-                <ImageView
-                    android:id="@+id/profileCircleImageView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="60dp"
-                    android:layout_centerVertical="true"
-                    android:src="@drawable/kripto"
-                    android:layout_marginRight="-300dp"
-                    android:layout_alignParentRight="true"/>
-
             </RelativeLayout>
 
         </androidx.appcompat.widget.Toolbar>

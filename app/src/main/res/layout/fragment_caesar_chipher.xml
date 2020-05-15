@@ -17,7 +17,7 @@
                 android:text="@string/kripto"
                 android:textSize="20sp"
                 android:fontFamily="@font/quicksand_medium"
-                android:textColor="@color/blue1"
+                android:textColor="@color/darkgreen"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">

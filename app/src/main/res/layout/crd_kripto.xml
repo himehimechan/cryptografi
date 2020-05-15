@@ -27,7 +27,7 @@
             <TextView
                 android:fontFamily="@font/quicksand_medium"
                 android:text="@string/key"
-                android:textColor="@color/blue1"
+                android:textColor="@color/darkgreen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/quicksand_medium"
-                android:textColor="@color/blue1"
+                android:textColor="@color/darkgreen"
                 android:paddingLeft="@dimen/padding_content2"
                 android:inputType="number"
                 android:background="@drawable/background_polos"/>
@@ -59,7 +59,7 @@
             <TextView
                 android:fontFamily="@font/quicksand_medium"
                 android:text="@string/plaintext"
-                android:textColor="@color/blue1"
+                android:textColor="@color/darkgreen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -68,7 +68,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/quicksand_medium"
-                android:textColor="@color/blue1"
+                android:textColor="@color/darkgreen"
                 android:singleLine="true"
                 android:paddingLeft="@dimen/padding_content2"
                 android:background="@drawable/background_polos"/>
@@ -91,7 +91,7 @@
             <TextView
                 android:fontFamily="@font/quicksand_medium"
                 android:text="@string/chipertext"
-                android:textColor="@color/blue1"
+                android:textColor="@color/darkgreen"
                 android:enabled="false"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
@@ -101,7 +101,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/quicksand_medium"
-                android:textColor="@color/blue1"
+                android:textColor="@color/darkgreen"
                 android:paddingLeft="@dimen/padding_content2"
                 android:inputType="text"
                 android:background="@drawable/background_grey"/>

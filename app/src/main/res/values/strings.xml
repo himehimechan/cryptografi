@@ -7,8 +7,8 @@
     <string name="key">Key</string>
     <string name="plaintext">Plaintext</string>
     <string name="chipertext">Ciphertext</string>
-    <string name="btn_save">Enkrip</string>
-    <string name="btn_enkrip">Dekrip</string>
+    <string name="btn_save">Ecrypt</string>
+    <string name="btn_enkrip">Decrypt</string>
     <string name="vigenere">Vigenere Cipher</string>
     <string name="poly">"Caesar Poly Cipher"</string>
 

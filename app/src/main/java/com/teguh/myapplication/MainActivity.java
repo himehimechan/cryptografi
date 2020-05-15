@@ -39,15 +39,10 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView.setSelectedItemId(R.id.navBotHome);
 
         if (savedInstanceState == null){
-//            fragmentManager
-//                    .beginTransaction()
-//                    .replace(R.id.frameContainerMain, new CaesarChipherFragment(),
-//                            Utils.TAG_FRAGMENT_HOME).commit();
-
             fragmentManager
                     .beginTransaction()
-                    .replace(R.id.frameContainerMain, new HillChiperFragment(),
-                            Utils.TAG_FRAGMENT_HILL).commit();
+                    .replace(R.id.frameContainerMain, new CaesarChipherFragment(),
+                            Utils.TAG_FRAGMENT_HOME).commit();
         }
     }
 
