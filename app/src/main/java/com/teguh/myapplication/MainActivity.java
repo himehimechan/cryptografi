@@ -71,6 +71,12 @@ public class MainActivity extends AppCompatActivity {
                             .replace(R.id.frameContainerMain, new HillChiperFragment(),
                                     Utils.TAG_FRAGMENT_HILL).commit();
                     return true;
+                case R.id.navBotAes:
+                    fragmentManager
+                            .beginTransaction()
+                            .replace(R.id.frameContainerMain, new AesFragment(),
+                                    Utils.TAG_FRAGMENT_AES).commit();
+                    return true;
                 case R.id.navBotLogout:
                     new SweetAlertDialog(MainActivity.this, SweetAlertDialog.WARNING_TYPE)
                             .setTitleText("Are you sure to logout?")

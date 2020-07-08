@@ -52,4 +52,5 @@ dependencies {
     implementation 'jp.wasabeef:recyclerview-animators:2.2.3'
     implementation 'id.zelory:compressor:2.1.0'
     implementation 'com.github.vipulasri:timelineview:1.1.2'
+    implementation "androidx.core:core-ktx:+"
 }

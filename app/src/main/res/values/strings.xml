@@ -11,9 +11,11 @@
     <string name="btn_enkrip">Decrypt</string>
     <string name="vigenere">Vigenere Cipher</string>
     <string name="poly">"Caesar Poly Cipher"</string>
+    <string name="aes">"AES"</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hill">Hill Chiper</string>
     <string name="keyhill">Key Matrix 2x2</string>
+    <string name="secret_key">Secret Key</string>
 </resources>

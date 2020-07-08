@@ -22,5 +22,6 @@ public class Utils {
     public static final String TAG_FRAGMENT_HOME ="CaesarChipherFragment";
     public static final String TAG_FRAGMENT_VIGENERE ="VigenereCipherFragment";
     public static final String TAG_FRAGMENT_HILL ="HillChiperFragment";
+    public static final String TAG_FRAGMENT_AES ="AesFragment";
 
 }
